@@ -1,0 +1,19 @@
+{
+  "name": "testdriven",
+  "version": "1.0.0",
+  "description": "A code written to fulfil a Jest Suite and render html pages",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose ./__tests__"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "jest": "^29.7.0"
+  }
+}
