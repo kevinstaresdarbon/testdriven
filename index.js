@@ -13,8 +13,9 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 const render = require("./src/page-template.js");
 
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
+// inspired and adapted from advice found here: https://stackoverflow.com/questions/45060200/in-node-js-how-do-i-create-a-prompt-loop-using-inquirer
 
-let team = [];
+const team = [];
 
 const finish = () => {
     fs.writeFile(outputPath, render(team), (err) => {
